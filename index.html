@@ -6,64 +6,74 @@
 <head>
   <meta charset="utf-8">
   <title>Jevin's Personal Site</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Esteban&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="https://media-exp1.licdn.com/dms/image/C5635AQHkmPXjCGpNAg/profile-framedphoto-shrink_200_200/0/1602023697408?e=1624536000&v=beta&t=0iXcBSRMqf39Z9U8KGgomc8-aagFzPuMODxZzLH8Zhw" alt="Jevin Profile Picture" /></td>
-      <td>
-        <h1>Jevin Kosasih</h1>
-        <p><em>Undergraduate <strong>Computer Science</strong> Student at the University of Washington.</em></p>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="profile-img" src="images/selfportrait.jpg" alt="Jevin Profile" />
+    <img class="top-cloud" src="images/cloud.png" alt="Cloud">
+    <h1>I'm Jevin.</h1>
+    <h2>a <u><strong>Computer Science</strong></u> Undergraduate.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="Cloud">
+  </div>
 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>GPA: 3.83</li>
-    <li>Courses Taken</li>
-    <ol>
-      <li>Algorithms</li>
-      <li>Artificial Intelligence</li>
-      <li>Computer Security</li>
-      <li>Data Management and Database Systems Internals</li>
-      <li>Data Structures and Parallelism</li>
-      <li>Interaction Programming and Android Development</li>
-      <li>Operating Systems</li>
-      <li>Systems Programming</li>
-    </ol>
-  </ul>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="" alt="">
+      <h3>Hello World.</h3>
+      <p>I am a software engineer and an aspiring full-stack web developer.</p>
+      <p>I ❤️ cars and playing video games with friends.</p>
+    </div>
 
-  <hr>
-  <h3>Work Experience</h3>
-  <ul>
-    <li>Internships</li>
-    
-    <li>Clubs</li>
-    <table cellspacing="18">
-      <thead>
-        <th>Dates</th>
-        <th>Work</th>
-      </thead>
+    <hr style="margin-top: 100px;">
 
-      <tbody>
-        <tr>
-          <td>2018 - 2020</td>
-          <td>Electronics Team Controls Lead @ <a href="https://www.uwhpsub.com">UW Human Powered Submarine</a></td>
-        </tr>
-        <tr>
-          <td>2018 - Present</td>
-          <td>Web Development Officer @ <a href="https://www.isauw.org">Indonesian Student Association at UW</a></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="skills">
+      <div class="skill-row">
+        <h3>Education.</h3>
+        <h4>I am a rising CSE senior at the University of Washington.</h4>
+        <div class="code-img-div">
+          <img src="images/code.gif" class="code-img" alt="Code">
+        </div>
+        <p>Here are some interesting classes I have taken.</p>
+        <ul>
+          <li><span>Algorithms</span></li>
+          <li><span>Artificial Intelligence</span></li>
+          <li><span>Computer Security</span></li>
+          <li><span>Data Management and Database Systems Internals</span></li>
+          <li><span>Interaction Programming and Android Development</span></li>
+          <li><span>Operating Systems</span></li>
+          <li><span>Systems Programming</span></li>
+        </ul>
+      </div>
 
-    <li>Personal Projects</li>
-  </ul>
-  <hr>
-  <h3><a href="contact.html">Contact Details</a></h3>
+      <hr>
+
+      <div class="skill-row">
+        <h3>Personal Projects.</h3>
+        <img src="images/hardhat.jpg" class="hardhat-img" alt="Hard Hat">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="contact-me">
+      <h3>Get In Touch.</h3>
+      <a class="btn" href="mailto:jevink@cs.washington.edu">Contact Me!</a>
+      <p style="margin-top:50px;">(206)-636-7375</p>
+      <p>jevink@cs.washington.edu</p>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jevin-kosasih-0a86a2b9/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/jevink">Github</a>
+    <a class="footer-link" href="https://www.instagram.com/jevinkosasih/">Instagram</a>
+    <p class="copyright">© 2021 Jevin Kosasih</p>
+  </div>
 </body>
 
 </html>
