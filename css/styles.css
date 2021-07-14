@@ -26,13 +26,13 @@
 .top-cloud {
   position: relative;
   margin: 0;
-  left: 450px;
+  left: 28.125rem;
 }
 
 .bottom-cloud {
   position: relative;
   margin: 0 0 2rem 0;
-  right: 600px;
+  right: 37.5rem;
 }
 
 .profile {
