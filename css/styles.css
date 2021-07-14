@@ -12,6 +12,7 @@
 
 .bottom-container {
   background-color: #66BFBF;
+  margin: auto;
   padding: 50px 0 20px;
 }
 
@@ -19,7 +20,7 @@
   border: 0.3rem solid #66BFBF;
   border-radius: 100%;
   display:block;
-  margin:auto;
+  margin: auto;
 }
 
 .top-cloud {
@@ -35,18 +36,19 @@
 }
 
 .profile {
-  margin: 50px auto;
+  margin: 6rem auto;
 }
 
 .skills {
-  margin: 50px auto;
+  margin: 0;
+  text-align: center;
 }
 
 .skill-row {
+  display: inline-block;
   line-height: 1.6;
-  margin: 100px auto;
+  margin: 0;
   text-align: left;
-  width: 40%;
 }
 
 .code-img-div {
@@ -70,7 +72,8 @@
 }
 
 .contact-me {
-  margin: 100px;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .copyright {
@@ -108,6 +111,8 @@ hr {
   border-color: #D9CCD1;
   border-style: dotted none none;
   border-width: 0.4rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
   width: 6rem;
 }
 
