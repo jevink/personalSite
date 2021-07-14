@@ -53,9 +53,9 @@
   background-color: #66BFBF;
   border-radius: 100%;
   float: left;
-  margin-right: 20px;
-  width: 160px;
-  padding: 30px;
+  margin-right: 1.25rem;
+  width: 10rem;
+  padding: 1.875rem;
 }
 
 .code-img {
@@ -65,8 +65,8 @@
 .hardhat-img {
   border-radius: 100%;
   float: right;
-  margin-left: 20px;
-  width: 220px;
+  margin-left: 1.25rem;
+  width: 13.75rem;
 }
 
 .contact-me {
