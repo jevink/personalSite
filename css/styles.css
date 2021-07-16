@@ -65,7 +65,7 @@ html, body{
   border-radius: 100%;
   float: left;
   margin-right: 1.25rem;
-  width: 10rem;
+  width: 8.333vw;
   padding: 1.875rem;
 }
 
@@ -76,7 +76,7 @@ html, body{
 .hardhat-img {
   border-radius: 100%;
   margin-left: 1.25rem;
-  width: 13.75rem;
+  width: 11.458vw;
 }
 
 .contact-me {
