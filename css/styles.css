@@ -61,12 +61,9 @@ html, body{
 }
 
 .code-img-div {
-  background-color: #66BFBF;
   border-radius: 100%;
-  float: left;
   margin-right: 1.25rem;
-  width: 8.333vw;
-  padding: 1.875rem;
+  width: 13.75rem;
 }
 
 .code-img {
@@ -76,7 +73,7 @@ html, body{
 .hardhat-img {
   border-radius: 100%;
   margin-left: 1.25rem;
-  width: 11.458vw;
+  width: 13.75rem;
 }
 
 .contact-me {
