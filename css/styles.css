@@ -60,14 +60,10 @@ html, body{
   text-align: left;
 }
 
-.code-img-div {
+.code-img {
   border-radius: 100%;
   margin-right: 1.25rem;
   width: 13.75rem;
-}
-
-.code-img {
-  width: inherit;
 }
 
 .hardhat-img {
