@@ -1,4 +1,8 @@
 /* selector { property:value; } */
+html, body{
+  overflow-x: hidden;
+}
+
 .float-container {
   display: flex;
   align-items: center;
